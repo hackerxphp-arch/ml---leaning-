@@ -10,5 +10,8 @@ df = pd .read _csv('train.csv)
 df . head()
 
 from pandas profilling import profileReport
+<br>
 prof = profileReport(df)
+<br>
 prof.to_file(output_file = 'output.html')
+<br>
